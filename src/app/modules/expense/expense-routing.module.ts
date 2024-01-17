@@ -4,7 +4,7 @@ import { HomePageComponent } from './components/home-page/home-page.component';
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'home-page',
     component:HomePageComponent
   }
 ];
