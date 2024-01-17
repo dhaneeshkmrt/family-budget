@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HomePageComponent } from './components/home-page/home-page.component';
+import { ExpenseRoutingModule } from './expense-routing.module';
 
 
 
@@ -9,7 +10,8 @@ import { HomePageComponent } from './components/home-page/home-page.component';
     HomePageComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    ExpenseRoutingModule
   ]
 })
 export class ExpenseModule { }
